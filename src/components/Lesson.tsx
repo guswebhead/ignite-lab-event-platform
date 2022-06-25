@@ -38,7 +38,7 @@ export function Lesson(props: LessonProps) {
                         <span className={classNames(
                             'text-sm font-medium flex items-center gap-2',
                             {
-                                'text=white': isActiveLesson,
+                                'text-white': isActiveLesson,
                                 'text-blue-500': !isActiveLesson
                             }
                         )}>
